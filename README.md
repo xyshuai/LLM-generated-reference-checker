@@ -1,5 +1,9 @@
 # LLM-Generated Reference Verification Tool
 
+## 0. Brief description
+
+LLM-Generated Reference Verification Tool is a lightweight utility for checking whether references that have been reformatted or touched by large language models still match real, published works. It parses common citation styles (APA, Harvard, Chicago, IEEE, ACM, MLA), extracts key metadata (title, authors, year, journal, volume, issue, pages, DOI), and compares them against open scholarly databases (OpenAlex and Crossref) to flag potential hallucinated references or silent metadata changes introduced during format conversion. The goal is not to encourage generating citations with LLMs, but to provide a post‑hoc safety check when you have used an LLM to batch‑convert existing references between styles and want an extra layer of verification before submission.
+
 ## 1. Introduction
 
 Large Language Models (LLMs) are highly prone to "hallucinations" when generating references:
@@ -9,7 +13,7 @@ Large Language Models (LLMs) are highly prone to "hallucinations" when generatin
 - **Quietly altering** originally correct reference information during format conversion
 
 In practice, a more common and insidious scenario is:
-Users already have real references but simply want LLMs to batch-convert them from one format (e.g., APA) to another (e.g., Harvard, Vancouver, etc.). During this process, LLMs may quietly:
+Users already have real references but simply want LLMs to batch-convert them from one format (e.g., APA) to another (e.g., Harvard, IEEE, etc.). During this process, LLMs may quietly:
 
 - Change the year, volume, issue, or page numbers
 - Replace journal names
@@ -80,7 +84,7 @@ Lists Python dependencies required to run this project (e.g., streamlit, pandas,
    - Middle sections contain core functions: parsing references, calling APIs, comparing metadata, generating result tables
    - Last cell creates an interactive text box and run button
 4. In the final interactive interface:
-   - Paste your references one per line into the text box (e.g., copied from Word, LaTeX, Notion, or LLM output)
+   - Paste your references one per line into the text box
    - Click **🚀 Run Verification** button
    - Wait for progress output and result table generation
 5. View in the output:
@@ -317,48 +321,34 @@ Before using this tool's results for:
 - Academic writing
 - Paper submission
 - Report writing
-- Academic misconduct investigation
 
 You should verify each reference through authoritative channels (journal websites, publisher sites, library databases, etc.).
 
 ### Input Format Limitations
 
-- The tool has optimized parsing compatibility for common formats (APA, Harvard, Chicago, IEEE, ACM, MLA, Vancouver), but:
+- The tool has optimized parsing compatibility for common formats (APA, Harvard, Chicago, IEEE, ACM, MLA), but:
   - If input format severely deviates from these mainstream formats
   - Or mixes multiple styles, incomplete information, incorrect symbols
 - Parsing results and subsequent matching will be affected
 - For such inputs, the tool's status (especially `ambiguous` and `unverified`) requires more careful interpretation and manual verification
 
-### Not a Tool for Judging Paper Quality or Academic Misconduct
+### Not a Tool for Judging Reference Quality
 
-This project is NOT designed to:
-- Accuse a paper of academic misconduct
-- Determine whether an author fabricated references
-
-Any qualitative judgments based on this tool's output require more comprehensive evidence and professional judgment. This project assumes no related responsibility.
+- Any qualitative judgments based on this tool's output require more comprehensive evidence and professional judgment. This project assumes no related responsibility.
 
 ### Using This Project Implies Your Agreement to the Following Terms
 
 - You understand and accept the limitations of this tool
 - You will not use this tool's results as the sole basis to accuse others or make decisions with serious consequences
-- The authors and contributors of this project assume no legal or moral responsibility for any consequences arising from misuse or over-reliance on this tool's results
+- The contributors of this project assume no legal or moral responsibility for any consequences arising from misuse or over-reliance on this tool's results
 
 ---
 
 ## Acknowledgments & Suggestions
 
 - If you use LLMs only to help "convert formats," this tool can serve as a safety net for post-conversion self-checking
-- If you want this project to support more citation formats or other databases (such as PubMed, Semantic Scholar, etc.), please submit an Issue or Pull Request on GitHub
-- Before using this project, please confirm that your institution or journal allows the use of automated tools to assist with reference organization and verification
+- If you want this project to support more citation formats or other databases (such as PubMed, Semantic Scholar, etc.), Please give us your suggestions!
 
 **We hope this project helps you maintain strict quality control over references while using LLMs.**
 
 ---
-
-## License
-
-[Add your license information here, e.g., MIT License]
-
-## Contact
-
-[Add your contact information or link to GitHub Issues]
