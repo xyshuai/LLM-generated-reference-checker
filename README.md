@@ -47,7 +47,7 @@ This project includes the following main files:
 ### `README.md`
 This documentation, including project introduction, usage guide, output interpretation, and disclaimers.
 
-### `llm_reference_verifier_colab.ipynb`
+### `LLM-Generated Reference Verification Tool.ipynb`
 **📚 LLM-Generated Reference Verification Tool – Interactive Version (Colab)**
 
 - Designed to run directly in Google Colab
