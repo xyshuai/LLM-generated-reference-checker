@@ -42,6 +42,7 @@ When you already have a list of references and use LLMs to batch-convert formats
 
 ## 2. Project Structure & File Descriptions
 
+```
 LLM-generated-reference-checker/
 │
 ├── images/
@@ -53,6 +54,7 @@ LLM-generated-reference-checker/
 ├── requirements.txt                  # Python dependencies
 ├── LICENSE                           # MIT License
 └── README.md                         # Documentation (this file)
+```
 
 This project includes the following main files:
 
