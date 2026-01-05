@@ -55,6 +55,10 @@ This documentation, including project introduction, usage guide, output interpre
 - Designed to run directly in Google Colab
 - Provides interactive text boxes and color-highlighted result tables
 - Suitable for personal use and debugging
+  
+**Interactive Interface Preview:**
+
+![Interactive Interface](images/colab_interface.png)
 
 ### `app.py`
 **📚 LLM-Generated Reference Verification Tool – Streamlit Version (Local Deployment)**
