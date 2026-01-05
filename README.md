@@ -46,11 +46,11 @@ When you already have a list of references and use LLMs to batch-convert formats
 LLM-generated-reference-checker/
 │
 ├── images/
-│   ├── colab_interface.png          # Screenshot of Colab interface
-│   └── streamlit_interface.png      # Screenshot of Streamlit interface
+│   ├── colab_interface.png           # Screenshot of Colab interface
+│   └── streamlit_interface.png       # Screenshot of Streamlit interface
 │
 ├── LLM_Generated_Reference_Verification_Tool.ipynb  # Colab notebook version
-├── app.py  # Streamlit web version
+├── app.py                            # Streamlit web version
 ├── requirements.txt                  # Python dependencies
 ├── LICENSE                           # MIT License
 └── README.md                         # Documentation (this file)
