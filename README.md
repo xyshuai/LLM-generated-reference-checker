@@ -49,8 +49,8 @@ LLM-generated-reference-checker/
 │   ├── colab_interface.png          # Screenshot of Colab interface
 │   └── streamlit_interface.png      # Screenshot of Streamlit interface
 │
-├── app.py                            # Streamlit web application
 ├── LLM_Generated_Reference_Verification_Tool.ipynb  # Colab notebook version
+├── app.py  # Streamlit web version
 ├── requirements.txt                  # Python dependencies
 ├── LICENSE                           # MIT License
 └── README.md                         # Documentation (this file)
