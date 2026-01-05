@@ -121,8 +121,8 @@ Lists Python dependencies required to run this project (e.g., streamlit, pandas,
 
 2. **Clone this repository:**
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+   git clone https://github.com/xyshuai/LLM-generated-reference-checker.git
+   cd LLM-generated-reference-checker
    ```
 
 3. **Install dependencies** (recommended using requirements.txt):
