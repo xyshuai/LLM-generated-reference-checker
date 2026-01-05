@@ -56,7 +56,7 @@ This documentation, including project introduction, usage guide, output interpre
 - Provides interactive text boxes and color-highlighted result tables
 - Suitable for personal use and debugging
   
-**Interactive Interface Preview:**
+**Interactive Interface Preview - Colab:**
 
 ![Interactive Interface](images/colab_interface.png)
 
@@ -66,6 +66,10 @@ This documentation, including project introduction, usage guide, output interpre
 - Web interface built with Streamlit
 - Suitable for local running (Windows / macOS / Linux)
 - Supports multiple reference inputs, progress bars, statistics cards, color-coded result tables, CSV export, etc.
+
+**Interactive Interface Preview -Streamlit:**
+
+![Interactive Interface](images/streamlit_interface.png)
 
 ### `requirements.txt` (Optional)
 Lists Python dependencies required to run this project (e.g., streamlit, pandas, rapidfuzz, requests, etc.)
