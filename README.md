@@ -356,6 +356,13 @@ You should verify each reference through authoritative channels (journal website
 
 ## Acknowledgments & Suggestions
 
+Data Sources
+This project relies on the following open academic databases:
+
+- OpenAlex - An open catalog of the world's scholarly papers, researchers, journals, and institutions. We are grateful for their free and open API that makes this tool possible.
+- Crossref - A DOI registration agency and metadata repository. Thank you for providing open access to scholarly metadata.
+
+Suggestions
 - If you use LLMs only to help "convert formats," this tool can serve as a safety net for post-conversion self-checking
 - If you want this project to support more citation formats or other databases (such as PubMed, Semantic Scholar, etc.), Please give us your suggestions!
 
