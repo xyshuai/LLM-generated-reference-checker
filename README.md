@@ -69,7 +69,7 @@ This documentation, including project introduction, usage guide, output interpre
 
 **Interactive Interface Preview -Streamlit:**
 
-![Interactive Interface](images/streamlit_interface.png)
+![Interactive Interface](images/Streamlit_interface.png)
 
 ### `requirements.txt` (Optional)
 Lists Python dependencies required to run this project (e.g., streamlit, pandas, rapidfuzz, requests, etc.)
