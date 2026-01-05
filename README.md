@@ -42,6 +42,18 @@ When you already have a list of references and use LLMs to batch-convert formats
 
 ## 2. Project Structure & File Descriptions
 
+LLM-generated-reference-checker/
+│
+├── images/
+│   ├── colab_interface.png          # Screenshot of Colab interface
+│   └── streamlit_interface.png      # Screenshot of Streamlit interface
+│
+├── app.py                            # Streamlit web application
+├── LLM_Generated_Reference_Verification_Tool.ipynb  # Colab notebook version
+├── requirements.txt                  # Python dependencies
+├── LICENSE                           # MIT License
+└── README.md                         # Documentation (this file)
+
 This project includes the following main files:
 
 ### `README.md`
@@ -357,6 +369,7 @@ You should verify each reference through authoritative channels (journal website
 ## Acknowledgments & Suggestions
 
 Data Sources
+
 This project relies on the following open academic databases:
 
 - OpenAlex - An open catalog of the world's scholarly papers, researchers, journals, and institutions. We are grateful for their free and open API that makes this tool possible.
